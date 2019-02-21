@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Sparpreiswebseitenverbesserer-Addon",
+  "description": "Farbliche Hervorhebung der Preiskategorien im Sparpreisfinder auf bahn.de",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/logo_48px.png",
+    "96": "icons/logo_96px.png"
+  },
+  "permissions": [
+    "*://www.bahn.de/*",
+    "*://ps.bahn.de/*"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}

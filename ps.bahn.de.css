@@ -1,0 +1,39 @@
+/*tr > td.clickable[title^="Super Sparpreis"] {
+  background-color: #ffd700;
+}
+td.clickable[title^="Sparpreis"] {
+  background-color: orange;
+}*/
+tr > td.clickable[title^="Flexpreis"] {
+  background-color: #b0ff30;
+}
+
+td.colpreis[title^="Super Sparpreis"]::before {
+  content: "SS ";
+}
+td.colpreis[title^="Sparpreis"]::before {
+  content: "S ";
+}
+td.colpreis[title^="Flexpreis"]::before {
+  content: "F ";
+}
+
+/*.highlight td.clickable[title^="Super Sparpreis"] {
+  background-color: #caaa00;;
+}
+.highlight td.clickable[title^="Sparpreis"] {
+  background-color: darkorange;
+}*/
+.highlight td.clickable[title^="Flexpreis"] {
+  background-color: #d0ff50;
+}
+
+/*.highlight-selected td.clickable[title^="Super Sparpreis"] {
+  background-color: #caaa00;
+}
+.highlight-selected td.clickable[title^="Sparpreis"] {
+  background-color: darkorange;
+}*/
+.highlight-selected td.clickable[title^="Flexpreis"] {
+  background-color: #e0ff60;
+}
