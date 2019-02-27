@@ -1,3 +1,3 @@
 build:
-	rm addon.zip
+	rm -f addon.zip
 	zip -r addon.zip * -x Makefile README.md
