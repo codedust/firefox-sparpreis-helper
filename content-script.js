@@ -9,7 +9,7 @@ if (sparpreisButton != null) {
 // TODO: select a Bahncard as default selection
 
 function priceToFloat(value) {
-  return parseFloat(value.replace(' €', '').replace(',','.').replace(/F |S+ |S /gi, ''));
+  return parseFloat(value.replace(' €', '').replace(',','.').replace(/F |S\+ |S /gi, ''));
 }
 
 // inject CSS code for result site
