@@ -9,7 +9,7 @@ tr > td.clickable[title^="Flexpreis"] {
 }
 
 td.colpreis[title^="Super Sparpreis"]::before {
-  content: "SS ";
+  content: "S+ ";
 }
 td.colpreis[title^="Sparpreis"]::before {
   content: "S ";
